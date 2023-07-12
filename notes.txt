@@ -1,0 +1,5 @@
+General
+	ignore bass (less than 6 strings) and percussion
+	keep vocals for now
+	ignore rests, just add to length of last note
+

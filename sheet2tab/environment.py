@@ -6,7 +6,6 @@ class pathenv():
 	TRAIN_RAW = os.path.join(DATA_RAW, "train")
 	TEST_RAW = os.path.join(DATA_RAW, "test")
 
-	MUSESCORE = 'C:\\"Program Files"\\"MuseScore 4"\\bin\\MuseScore4.exe'
-
 class guitarenv():
-	test = ""
+	NUMSTRINGS = 6
+	STRINGS = [64,59,55,50,45,40]
