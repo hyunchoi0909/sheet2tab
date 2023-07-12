@@ -1,6 +1,0 @@
-[
-  {
-    "in": "metal.gp4",
-    "out": "testbatch.xml"
-  }
-]
