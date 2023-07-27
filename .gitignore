@@ -9,6 +9,7 @@ dst-env/
 tests/.cache/v/cache/lastfailed
 .vscode/settings.json
 rawdata/
+gptab/
 
 ##
 ## R Section - See https://github.com/github/gitignore/blob/master/R.gitignore
