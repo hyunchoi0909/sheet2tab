@@ -1,5 +1,15 @@
+todo
+	figure out what to do with multiple voices for guitar pro file, use some classical guitar part
+	begin processing and finish before next week; consider parallelizing
 General
 	ignore bass (less than 6 strings) and percussion
 	keep vocals for now
 	ignore rests, just add to length of last note
-
+features
+	basically gonna do machine translation of guitar frets
+	options: sparse representation/sequential representation
+	features: pitches as list (lowest to highest); string fretting
+	optional features: length, hammeron,pulloff,slide,
+model options in terms of complexity
+	rnn, bidirectional rnn
+	lstm, bidirectional lstm
