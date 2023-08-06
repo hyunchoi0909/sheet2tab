@@ -3,10 +3,9 @@ import os
 class pathenv():
 	ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
 	DATA_RAW = os.path.join(ROOT,"rawdata")
-	TRAIN_RAW = os.path.join(DATA_RAW, "train")
-	TEST_RAW = os.path.join(DATA_RAW, "test")
-	UNUSED_RAW = os.path.join(DATA_RAW, "unused")
-	GPTAB_DIR = os.path.join(ROOT,"gptab") 
+	CORRUPT_RAW = os.path.join(DATA_RAW, "corrupt")
+	PROCESSED_DATA = os.path.join(ROOT, "procdata")
+	GPTAB_DIR = os.path.join(ROOT,"gptab")
 
 class setenv():
 	#String 0 is highest string
