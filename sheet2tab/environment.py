@@ -8,9 +8,10 @@ class pathenv():
 	GPTAB_DIR = os.path.join(ROOT,"gptab")
 
 class setenv():
-	#String 0 is highest string
+	#String 0 is highest string, String 5 is the lowest String
 	COLUMNS = ["PITCH","STRING0", "STRING1", "STRING2", "STRING3", "STRING4", "STRING5", "DURATION"]
 	COLUMNS_EXTRA = ["MUTE", "HAMMERON", "PULLOFF", "SLIDE"]
 class guitarenv():
 	NUMSTRINGS = 6
+	NUMFRETS = 24
 	STRINGS = [64,59,55,50,45,40]
