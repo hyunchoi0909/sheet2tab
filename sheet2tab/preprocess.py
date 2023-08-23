@@ -163,10 +163,10 @@ def mpi_process(file_write = True):
 
     files = os.listdir()
     num_files = len(files)
-    # ends = [int(rank*(num_files/size)), int((rank+1)*(num_files/size))]
-    # if rank == size-1:
-    #     ends[1] = num_files
-    ends = [int(rank*(num_files/size)), int((rank)*(num_files/size))+100]
+    ends = [int(rank*(num_files/size)), int((rank+1)*(num_files/size))]
+    if rank == size-1:
+        ends[1] = num_files
+    #ends = [int(rank*(num_files/size)), int((rank)*(num_files/size))+100]
 
     if rank == 0:
         iterator = tqdm.tqdm(files[ends[0]: ends[1]])
